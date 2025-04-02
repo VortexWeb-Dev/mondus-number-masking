@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($phone) {
             $masked_phone = maskNumber($phone);
             $fields = [
-                'UF_CRM_1740473081142' => $masked_phone
+                'UF_CRM_1743588922985' => $masked_phone
             ];
 
             $update_lead = updateLead($lead_id, $fields);
